@@ -22,4 +22,14 @@ class MainActivity : AppCompatActivity() {
     val releaseString = "Kotlin was released in $releaseDate"
     // releaseString: Kotlin was released in July 2011
 
+
+    // Numbers
+    var num0 = 1 // Integer
+    var num1 = 3.14 // Double
+    var num3 = 42L // Long
+    var num4 = 3.14f // Float
+    // Converting numbers to some type - example
+    val num5 = num3.toFloat() // Float
+    var num6 = 11.toLong() // Long
+    var distanceToMoon = 92_960_000 // We can use underscore to make numbers more readable
 }
